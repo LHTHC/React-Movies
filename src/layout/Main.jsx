@@ -26,7 +26,7 @@ const Main = () => {
   };
 
   useEffect(() => {
-    this.setState({ loading: false });
+    setLoading(false);
   }, []);
 
   return (
